@@ -122,3 +122,52 @@ header {
 .banner .banner-image img{
     width: 100%;
 }
+
+
+
+/* quick list styles starts here  */
+.quick-list{
+    width: 75%;
+    max-width: 1440px;
+    margin: 85px auto;
+    padding: 0 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 73px;
+}
+
+.quick-list .quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 24px;
+}
+
+.quick-list .quick-list-content h3{
+    font-size: var(--primary-font);
+    margin-bottom: 24px;
+}
+
+.quick-list .quick-list-content h3 .span-1{
+    color: var(--secondary-color);
+    font-weight: var(--semi-bold);
+
+}
+
+.quick-list .quick-list-content h3 .span-2{
+    color: var(--primary-color);
+    font-weight: var(--bold);
+}
+
+.quick-list .quick-list-content h3 .span-3{
+    color: #FF900E;
+    font-weight: var(--bold);
+}
+
+.quick-list .quick-list-content p{
+    columns:var(--secondary-color);
+    font-size: var(--small-font);
+    font-weight: var(--normal-weight);
+    line-height: 1.6rem;
+    margin-bottom: 32px;
+}
