@@ -2,40 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
 /* reset css  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
 /* declare variables  */
 
-:root{
+:root {
     --primary-color: #131313;
     --secondary-color: #727272;
     --dark-gray: #424242;
-    --btn-text:  #FFF;
+    --btn-text: #FFF;
     --primary-font: 2.8rem;
     --medium-font: 1.2rem;
     --small-font: 1rem;
-    --bolder:700;
-    --bold : 600;
+    --bolder: 700;
+    --bold: 600;
     --semi-bold: 500;
     --normal-weight: 400;
 }
 
 
+/* shared styles  */
+
+.btn-primary {
+    color: var(--btn-text);
+    font-size: var(--medium-font);
+    font-weight: var(--bold);
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF900E;
+}
+
 
 /* navigation styles starts here  */
-header{
+header {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
     background: rgba(255, 144, 14, 0.10);
 }
-.navigation{
+
+.navigation {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
@@ -44,20 +57,24 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.navigation h1{
+
+.navigation h1 {
     color: var(--primary-color);
     font-size: var(--primary-font);
     font-weight: var(--bolder);
 }
-.navigation ul{
+
+.navigation ul {
     display: flex;
     justify-content: center;
 }
-.navigation ul li{
+
+.navigation ul li {
     list-style: none;
     margin-left: 50px;
 }
-.navigation ul li a{
+
+.navigation ul li a {
     text-decoration: none;
     color: var(--dark-gray);
     font-size: 1.1rem;
@@ -65,3 +82,43 @@ header{
     line-height: 1.6rem;
 }
 
+
+
+/* banner styles start here  */
+.banner {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner .header-content {
+    width: 60%;
+    max-width: 868px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.banner .header-content h2 {
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: var(--bolder);
+}
+
+.banner .header-content p {
+    color: var(--secondary-color);
+    font-size: var(--small-font);
+    font-weight: var(--normal-weight);
+    line-height: 1.6rem;
+    margin-bottom: 32px ;
+}
+
+
+.banner .banner-image{
+    width: 100%;
+    max-width: 1440px;
+    padding-bottom: 45px;
+}
+
+.banner .banner-image img{
+    width: 100%;
+}
