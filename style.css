@@ -1,0 +1,67 @@
+/* import google font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* reset css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Work Sans', sans-serif;
+}
+
+
+/* declare variables  */
+
+:root{
+    --primary-color: #131313;
+    --secondary-color: #727272;
+    --dark-gray: #424242;
+    --btn-text:  #FFF;
+    --primary-font: 2.8rem;
+    --medium-font: 1.2rem;
+    --small-font: 1rem;
+    --bolder:700;
+    --bold : 600;
+    --semi-bold: 500;
+    --normal-weight: 400;
+}
+
+
+
+/* navigation styles starts here  */
+header{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.10);
+}
+.navigation{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation h1{
+    color: var(--primary-color);
+    font-size: var(--primary-font);
+    font-weight: var(--bolder);
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+}
+.navigation ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: var(--dark-gray);
+    font-size: 1.1rem;
+    font-weight: var(--semi-bold);
+    line-height: 1.6rem;
+}
+
