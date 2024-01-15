@@ -183,10 +183,12 @@ header {
     margin-top: 30px;
     border-left: 5px solid #FF900E;
 }
-.features .feature-content #feature-para{
+
+.features .feature-content #feature-para {
     margin-bottom: 30px;
 }
-.features .feature-content .skills .skill{
+
+.features .feature-content .skills .skill {
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
@@ -201,25 +203,107 @@ header {
     margin-bottom: 10px;
 }
 
-.features .feature-content .skills .skill-para{
+.features .feature-content .skills .skill-para {
     line-height: 26px;
     margin-bottom: 0;
 }
 
 
 
-.feature-image-container .btn-primary{
+.feature-image-container .btn-primary {
     position: relative;
     top: -8%;
     left: -10%;
 }
-.feature-image-container .btn-primary .btn-title{
+
+.feature-image-container .btn-primary .btn-title {
     font-size: 4rem;
     font-weight: var(--bolder);
     line-height: 70px;
 }
-.feature-image-container .btn-primary .btn-text{
+
+.feature-image-container .btn-primary .btn-text {
     font-size: 1.6rem;
     font-weight: var(--semi-bold);
     line-height: 24px;
+}
+
+
+
+
+/* facts styles start here  */
+
+.facts {
+    width: 75%;
+    max-width: 1440px;
+    margin: 85px auto 0;
+}
+
+.facts .fact-content {
+    max-width: 542px;
+}
+
+.facts .fact-content h3 {
+    color: var(--primary-color);
+    font-size: var(--primary-font);
+    font-weight: var(--bolder);
+    margin-bottom: 24px;
+}
+
+.facts .fact-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+.facts .fact-card .card {
+    text-align: center;
+    padding: 59px 40px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    height: 241px;
+    width: 241px;
+}
+
+.facts .fact-card .card h4 {
+    color: var(--dark-gray);
+    font-size: var(--primary-font);
+    font-weight: var(--bold);
+}
+
+.facts .fact-card .card p {
+    color: var(--secondary-color);
+    font-size: var(--medium-font);
+    font-weight: var(--bold);
+}
+
+
+
+/* sponsor section starts here  */
+.sponsor{
+    width: 75%;
+    max-width: 1440px;
+    margin: 130px auto;
+}
+.sponsor .sponsor-content{
+    max-width: 542px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor .sponsor-content h3{
+    color: var(--primary-color);
+    font-size: var(--primary-font);
+    font-weight: var(--bolder);
+    margin-bottom: 24px;
+}
+.sponsor .sponsor-content p{
+    line-height: 1.6rem;
+}
+
+
+.sponsor .sponsor-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: grayscale(1);
 }
