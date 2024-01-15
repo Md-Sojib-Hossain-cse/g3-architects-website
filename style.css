@@ -280,30 +280,51 @@ header {
 
 
 /* sponsor section starts here  */
-.sponsor{
+.sponsor {
     width: 75%;
     max-width: 1440px;
     margin: 130px auto;
 }
-.sponsor .sponsor-content{
+
+.sponsor .sponsor-content {
     max-width: 542px;
     margin: 50px auto;
     text-align: center;
 }
-.sponsor .sponsor-content h3{
+
+.sponsor .sponsor-content h3 {
     color: var(--primary-color);
     font-size: var(--primary-font);
     font-weight: var(--bolder);
     margin-bottom: 24px;
 }
-.sponsor .sponsor-content p{
+
+.sponsor .sponsor-content p {
     line-height: 1.6rem;
 }
 
 
-.sponsor .sponsor-icons{
+.sponsor .sponsor-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     filter: grayscale(1);
+}
+
+
+
+/* footer styles starts here  */
+.footer {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto 200px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+}
+.footer p{
+    color: var(--secondary-color);
+    font-size: var(--medium-font);
+    font-weight: var(--normal-weight);
+    padding: 40px 0;
 }
