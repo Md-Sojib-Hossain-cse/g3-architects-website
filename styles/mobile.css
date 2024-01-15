@@ -1,0 +1,88 @@
+/* for mobile  */
+
+@media screen and (max-width:576px) {
+    .navigation ,
+    .navigation ul , 
+    .quick-list  ,
+    .features,
+    .facts .fact-card,
+    .sponsor .sponsor-icons
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    /* nav style  */
+    .navigation ul li{
+        text-align: center;
+        margin: 10px;
+    }
+
+
+    /* banner style  */
+    .banner .header-content{
+        width: 100%;
+        margin: 10px;
+        text-align: left;
+    }
+    .banner .header-content h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
+    /* quick list  */
+    .quick-list{
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .quick-list .quick-list-images {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* features  */
+    .feature-image{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feature-image img{
+        width: 100%;
+    }
+
+    .feature-image-container .btn-primary {
+        position: relative;
+        top: -50px;
+        left: -30px;
+    }
+    .feature-image-container .btn-primary .btn-title {
+        font-size: 2rem;
+        line-height: 35px;
+    }
+    .feature-image-container .btn-primary .btn-text {
+        font-size: var(--small-font);
+        font-weight: var(--semi-bold);
+        line-height: 24px;
+    }
+
+
+
+    /* facts  */
+    .facts .fact-card {
+        margin: 50px auto;
+        gap: 15px;
+    }
+    .facts .fact-card .card {
+        margin: 0 auto;
+    }
+
+    /* footer  */
+    .footer{
+        margin: 50px auto;
+    }
+}

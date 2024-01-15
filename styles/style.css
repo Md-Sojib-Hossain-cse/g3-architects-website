@@ -188,6 +188,11 @@ header {
     margin-bottom: 30px;
 }
 
+
+.features .feature-content .skills{
+    display: flex;
+    flex-direction: column;
+}
 .features .feature-content .skills .skill {
     border-radius: 8px;
     background: #fff;

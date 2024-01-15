@@ -1,0 +1,44 @@
+@media screen and (max-width:1200px) {
+    .quick-list{
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* feature */
+    .features{
+        flex-direction: column;
+    }
+    .feature-image-container{
+        margin: 0 auto;
+    }
+    .feature-image-container .btn-primary {
+        position: relative;
+        top: -80px;
+        left: -10%;
+    }
+
+
+    /* fact  */
+    .facts .fact-card{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-basis: 240px;
+        gap: 50px;
+    }
+
+
+    /* sponsor  */
+    .sponsor .sponsor-icons{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+
+    /* footer  */
+    .footer{
+        margin-bottom: 50px;
+    }
+
+}
